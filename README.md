@@ -9,15 +9,11 @@ Kalculator is a smart and slightly sassy command-line calculator written in pure
 - **Four Basic Operations**: Addition, subtraction, multiplication, and division
 - **Smart Input Validation**: Handles non-integer inputs gracefully
 - **Personality-Packed Error Messages**: Gets progressively sassier with repeated mistakes
-- **Zero-Tolerance Policy**: Exits after 3 failed attempts (it has limits!)
+- **Zero-Tolerance Policy**: Exits after three failed attempts (it has limits!)
 - **Division Protection**: Prevents division by zero errors
 - **Clean Interface**: Simple and intuitive menu system
 
 ## Installation ⚙️
-
-### Prerequisites
-- Kotlin 1.9.0 or higher
-- Java JDK 17 or higher
 
 ### Using GitHub
 ```bash
@@ -40,22 +36,19 @@ java -jar kalculator.jar
 4. Get your result!
 
 ```plaintext
-Please enter the first number: 42
-Please enter the second number: seven
+Please enter the first number: 8
+Please enter the second number: haruka
 Please, don't you know what an integer is?
-Please try again: 7
-
+Please enter the second number: 9
 Operations available:
 1 - Sum
-2 - Division
-3 - Multiplication
-4 - Subtraction
-
-Enter your choice (1-4): 5
+2 - Subtraction
+3 - Division
+4 - Multiplication
+Enter your choice (1-4): dev
 Please, don't you know how to read the options?
-Please try again: 2
-
-The result is: 6
+Enter your choice (1-4): 4
+The result of the operation is: 72
 ```
 
 ## Future Enhancements 🚀

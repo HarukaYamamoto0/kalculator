@@ -51,12 +51,4 @@ Enter your choice (1-4): 4
 The result of the operation is: 72
 ```
 
-## Future Enhancements 🚀
-
-- [x] Support for decimal numbers
-- [ ] Additional operations (exponents, modulo)
-- [ ] Calculation history
-- [ ] Colorful terminal interface
-- [ ] Unit conversion features
-
 **Warning**: This calculator will question your intelligence after multiple incorrect inputs. Use responsibly! 😉

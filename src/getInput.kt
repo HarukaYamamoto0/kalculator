@@ -1,11 +1,10 @@
 import kotlin.system.exitProcess
 
-fun <T> getInput(
+fun getInput(
     prompt: String,
     errorMessages: List<String>,
-    parse: (String) -> T?,
-    isValid: (T) -> Boolean = { true }
-): T {
+    isValid: (Number) -> Boolean = { true }
+): Number {
     var attempts = 0
 
     while (attempts < errorMessages.size) {
@@ -16,4 +15,11 @@ fun <T> getInput(
         attempts++
     }
     exitProcess(1)
+}
+
+fun parse(input: String): Number? {
+    return input.toIntOrNull()
+        ?: input.toLongOrNull()
+        ?: input.toFloatOrNull()
+        ?: input.toDoubleOrNull()
 }

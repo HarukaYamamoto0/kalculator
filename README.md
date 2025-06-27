@@ -53,7 +53,7 @@ The result of the operation is: 72
 
 ## Future Enhancements 🚀
 
-- [ ] Support for decimal numbers
+- [x] Support for decimal numbers
 - [ ] Additional operations (exponents, modulo)
 - [ ] Calculation history
 - [ ] Colorful terminal interface
